@@ -1,4 +1,4 @@
-{ ... }:
+{ lib, pkgs, ... }:
 {
   plugins.conform-nvim = {
     enable = true;
@@ -6,13 +6,13 @@
       default_format_opts.lsp_format = "prefer";
       formatters_by_ft = {
         "_" = [
-          #"squeeze_blanks"
+          "squeeze_blanks"
           "trim_whitespace"
           "trim_newlines"
         ];
       };
 
-      #formatters.squeeze_blanks.command = lib.getExe' pkgs.coreutils "cat";
+      formatters.squeeze_blanks.command = lib.getExe' pkgs.coreutils "cat";
     };
   };
 }

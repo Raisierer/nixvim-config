@@ -38,17 +38,17 @@
     { mode = "n"; key = "<leader>sD"; action = "<cmd>:lua Snacks.picker.diagnostics_buffer()<cr>"; options.desc = "Buffer Diagnostics"; }
     { mode = "n"; key = "<leader>sh"; action = "<cmd>:lua Snacks.picker.help()<cr>"; options.desc = "Help Pages"; }
     { mode = "n"; key = "<leader>sH"; action = "<cmd>:lua Snacks.picker.highlights()<cr>"; options.desc = "Highlights"; }
-    { mode = "n"; key = "<leader>si"; action = "<cmd>:luafunction() Snacks.picker.icons()<cr>"; options.desc = "Icons"; }
-    { mode = "n"; key = "<leader>sj"; action = "<cmd>:luafunction() Snacks.picker.jumps()<cr>"; options.desc = "Jumps"; }
-    { mode = "n"; key = "<leader>sk"; action = "<cmd>:luafunction() Snacks.picker.keymaps()<cr>"; options.desc = "Keymaps"; }
-    { mode = "n"; key = "<leader>sl"; action = "<cmd>:luafunction() Snacks.picker.loclist()<cr>"; options.desc = "Location List"; }
-    { mode = "n"; key = "<leader>sm"; action = "<cmd>:luafunction() Snacks.picker.marks()<cr>"; options.desc = "Marks"; }
-    { mode = "n"; key = "<leader>sM"; action = "<cmd>:luafunction() Snacks.picker.man()<cr>"; options.desc = "Man Pages"; }
-    { mode = "n"; key = "<leader>sp"; action = "<cmd>:luafunction() Snacks.picker.lazy()<cr>"; options.desc = "Search for Plugin Spec"; }
-    { mode = "n"; key = "<leader>sq"; action = "<cmd>:luafunction() Snacks.picker.qflist()<cr>"; options.desc = "Quickfix List"; }
-    { mode = "n"; key = "<leader>sR"; action = "<cmd>:luafunction() Snacks.picker.resume()<cr>"; options.desc = "Resume"; }
-    { mode = "n"; key = "<leader>su"; action = "<cmd>:luafunction() Snacks.picker.undo()<cr>"; options.desc = "Undo History"; }
-    { mode = "n"; key = "<leader>uC"; action = "<cmd>:luafunction() Snacks.picker.colorschemes()<cr>"; options.desc = "Colorschemes"; }
+    { mode = "n"; key = "<leader>si"; action = "<cmd>:lua Snacks.picker.icons()<cr>"; options.desc = "Icons"; }
+    { mode = "n"; key = "<leader>sj"; action = "<cmd>:lua Snacks.picker.jumps()<cr>"; options.desc = "Jumps"; }
+    { mode = "n"; key = "<leader>sk"; action = "<cmd>:lua Snacks.picker.keymaps()<cr>"; options.desc = "Keymaps"; }
+    { mode = "n"; key = "<leader>sl"; action = "<cmd>:lua Snacks.picker.loclist()<cr>"; options.desc = "Location List"; }
+    { mode = "n"; key = "<leader>sm"; action = "<cmd>:lua Snacks.picker.marks()<cr>"; options.desc = "Marks"; }
+    { mode = "n"; key = "<leader>sM"; action = "<cmd>:lua Snacks.picker.man()<cr>"; options.desc = "Man Pages"; }
+    { mode = "n"; key = "<leader>sp"; action = "<cmd>:lua Snacks.picker.lazy()<cr>"; options.desc = "Search for Plugin Spec"; }
+    { mode = "n"; key = "<leader>sq"; action = "<cmd>:lua Snacks.picker.qflist()<cr>"; options.desc = "Quickfix List"; }
+    { mode = "n"; key = "<leader>sR"; action = "<cmd>:lua Snacks.picker.resume()<cr>"; options.desc = "Resume"; }
+    { mode = "n"; key = "<leader>su"; action = "<cmd>:lua Snacks.picker.undo()<cr>"; options.desc = "Undo History"; }
+    { mode = "n"; key = "<leader>uC"; action = "<cmd>:lua Snacks.picker.colorschemes()<cr>"; options.desc = "Colorschemes"; }
     # LSP
     { mode = "n"; key = "gd"; action = "<cmd>:lua Snacks.picker.lsp_definitions()<cr>"; options.desc = "Goto Definition"; }
     { mode = "n"; key = "gD"; action = "<cmd>:lua Snacks.picker.lsp_declarations()<cr>"; options.desc = "Goto Declaration"; }
