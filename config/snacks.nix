@@ -1,5 +1,9 @@
-{ ... }:
+{ pkgs, ... }:
 {
+  extraPackages = [
+    pkgs.fd
+  ];
+
   plugins.snacks = {
     enable = true;
     settings = {
@@ -12,10 +16,17 @@
       statuscolumn.enabled = true;
       picker = {
         enabled = true;
+        files = {
+
+        };
         sources.explorer = {
+          focus = "input";
           auto_close = false;
+          jump = {
+            close = true;
+          };
           show_empty = true;
-          layout.preset = "sidebar";
+          layout.preset = "ivy";
           layout.layout.position = "right";
         };
       };

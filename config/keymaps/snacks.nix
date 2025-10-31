@@ -6,7 +6,7 @@
     { mode = "n"; key = "<leader>/"; action = "<cmd>:lua Snacks.picker.grep()<cr>"; options.desc = "Grep"; }
     { mode = "n"; key = "<leader>:"; action = "<cmd>:lua Snacks.picker.command_history()<cr>"; options.desc = "Command History"; }
     { mode = "n"; key = "<leader>n"; action = "<cmd>:lua Snacks.picker.notifications()<cr>"; options.desc = "Notification History"; }
-    { mode = "n"; key = "<leader>e"; action = "<cmd>:lua Snacks.explorer()<cr>"; options.desc = "File Explorer"; }
+    #{ mode = "n"; key = "<leader>e"; action = "<cmd>:lua Snacks.explorer()<cr>"; options.desc = "File Explorer"; }
     # find
     { mode = "n"; key = "<leader>fb"; action = "<cmd>:lua Snacks.picker.buffers()<cr>"; options.desc = "Buffers"; }
     { mode = "n"; key = "<leader>fc"; action = ''<cmd>:lua Snacks.picker.files({ cwd = vim.fn.stdpath("config") })<cr>''; options.desc = "Find Config File"; }

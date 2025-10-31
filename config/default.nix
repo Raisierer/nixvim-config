@@ -4,6 +4,7 @@
     ./plugins.nix
     ./snacks.nix
     ./mini.nix
+    ./oil.nix
     ./keymaps
     ./treesitter.nix
     ./lsp
